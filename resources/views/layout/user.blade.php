@@ -73,7 +73,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-auto">
                         <div class="d-flex align-items-center justify-content-between">
-                            <div class="logo-style1" style="margin-left: 10%;"><a href="index.html"><img src="assets/img/logo.svg" alt="Pizzer"></a></div>
+                            <div class="logo-style1" style="margin-left: 10%;"><a href="index.html"><img src="{{ asset('assets/img/logo1.png') }}" alt="Pizzer"></a></div>
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li class="menu-item-has-children"><a href="index.html">Home</a>

@@ -111,6 +111,14 @@
             </table>
             <div class="wc-proceed-to-checkout mb-30" style="text-align: center;"><a href="checkout.html"
                     class="as-btn">Proceed to checkout</a></div>
+                    <form id="formD" name="formD" action="" method="post" enctype="multipart/form-data">
+                        Harga Satuan: <br> 
+                        <input type="text" name="harga" onkeyup="OnChange(this.value)" onKeyPress="return isNumberKey(event)"><br> 
+                        Jumlah:<br>
+                       <input type="text" name="jmlpsn" onkeyup="OnChange(this.value)" onKeyPress="return isNumberKey(event)"><br>
+                        Harga keseluruhan : <br>
+                        <input type="text" name="txtDisplay" value="" readonly="readonly">
+                     </form>
         </div>
     </div>
 </div>
@@ -119,18 +127,14 @@
     function sum() {
       var txtFirstNumberValue1 = document.getElementById('harga1').value;
       var txtSecondNumberValue1 = document.getElementById('jumlah1').value;
+      var txtFirstNumberValue2 = document.getElementById('harga2').value;
+      var txtSecondNumberValue2 = 2;
+
       var newValue1 = txtSecondNumberValue1 || 0;
-      var result1 = parseInt(txtFirstNumberValue1) * parseInt(newValue1);
+      var result1 = parseInt(txtFirstNumberValue1) * parseInt(newValue1) + txtFirstNumberValue2 * txtSecondNumberValue2 ;
       if (!isNaN(result1)) {
          document.getElementById('total1').value = 'Rp.' + result1;
       }
-
-
-      
-    //   let total = result1 + result2
-    //   if (!isNaN(total)) {
-    //      document.getElementById('total-pesanan').value = 'Rp.' + result2;
-    //   }
 }        
 </script>
 @endsection
