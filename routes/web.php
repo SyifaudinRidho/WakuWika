@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get('/pesan', function () {
     return view('pesan');
 });
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+Route::get('/kategori', function () {
+    return view('admin.wisata.kategori');
+});

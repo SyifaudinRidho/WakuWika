@@ -71,9 +71,9 @@
         <div class="menu-area">
             <div class="container as-container">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-xl-auto">
+                    <div class="col-xl-auto" style="background: #D32529;">
                         <div class="d-flex align-items-center justify-content-between">
-                            <div class="logo-style1" style="margin-left: 10%;"><a href="index.html"><img src="{{ asset('assets/img/logo1.png') }}" alt="Pizzer"></a></div>
+                            <div class="logo-style1" style="margin-left: 4%;padding: 20px 0;background: #D32529;"><a href="index.html"><img src="http://127.0.0.1:8000/assets/img/logo1.png" alt="Pizzer" style="height: 20px;"></a></div>
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li class="menu-item-has-children"><a href="index.html">Home</a>
@@ -90,8 +90,6 @@
                                     <li><a href="contact.html">Contact Us</a></li>
                                 </ul>
                             </nav>
-                            <a href="/pesan" class="as-menu-toggle d-inline-block d-lg-none"><i class="fa fa-shopping-cart"></i></a>
-                            <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="fa fa-shopping-cart"></i></button>
                         </div>
                     </div>
                     <div class="col-auto d-none d-xl-block">
@@ -118,7 +116,7 @@
             <div class="footer-top">
                 <div class="row align-items-center">
                     <div class="col-xl-3">
-                        <div class="footer-logo"><img src="assets/img/logo-white.svg" alt="Pizzer"></div>
+                        <div class="footer-logo"><img style="width: 56%;" src="{{ ('assets/img/footer-lg.svg') }}" alt="Pizzer"></div>
                     </div>
                     <div class="col-xl-9">
                         <div class="subscribe-box">
