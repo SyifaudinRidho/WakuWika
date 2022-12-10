@@ -30,7 +30,7 @@
     <div class="d-flex flex-column-fluid">
         <!--begin::Container-->
         <div class=" container ">
-            <form action="{{-- {{ route('add.lokasi') }} --}}" method="POST" enctype="multipart/form-data">
+            <form action="{{-- {{ route('add.kategori') }} --}}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="row">
                     <div class="col-md-6">

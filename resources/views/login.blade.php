@@ -1,22 +1,10 @@
 
 <!DOCTYPE html>
-<!--
-Template Name: Metronic - Bootstrap 4 HTML, React, Angular 9 & VueJS Admin Dashboard Theme
-Author: KeenThemes
-Website: http://www.keenthemes.com/
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Dribbble: www.dribbble.com/keenthemes
-Like: www.facebook.com/keenthemes
-Purchase: https://1.envato.market/EA4JP
-Renew Support: https://1.envato.market/EA4JP
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
--->
 <html lang="en" >
     <!--begin::Head-->
     <head><base href="../../../../">
         <meta charset="utf-8"/>
-        <title>Login | Grow Travel</title>
+        <title>Login | Waku Wika</title>
 		<meta name="csrf-token" content="{{ csrf_token() }}" />
         <meta name="description" content="Login page example"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -101,7 +89,6 @@ License: You must have a valid license purchased only from themeforest(the above
 						<a href="javascript:;" id="kt_login_forgot" class="text-muted text-hover-primary">Forget password ?</a>
 					</div>
 					<button id="kt_login_signin_submit" class="btn font-weight-bold btn-primary py-4 my-3 mx-0" style="padding-right: 45%; padding-left:43%; background:#ff6d05; ">SIGNIN</button>
-                    <div><a href="{{ url('auth/google') }}" style="width:100%;" class="btn btn-secondary font-weight-bold px-20 py-4 my-3 mx-0">Login With Google</a></div>
 				</form>
 				<div class="mt-10">
 					<span class="opacity-70 mr-4">

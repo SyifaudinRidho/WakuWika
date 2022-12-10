@@ -23,5 +23,14 @@ Route::get('/admin', function () {
     return view('admin.index');
 });
 Route::get('/kategori', function () {
-    return view('admin.wisata.kategori');
+    return view('admin.pesanan.kategori');
+});
+Route::get('/tambah', function () {
+    return view('admin.pesanan.tambah');
+});
+Route::get('/pesanan', function () {
+    return view('admin.pesanan.index');
+});
+Route::get('/login', function () {
+    return view('login');
 });
